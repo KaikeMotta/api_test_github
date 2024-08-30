@@ -3,7 +3,7 @@ const btnBuscar = document.querySelector("input[type=button]");
 
 btnBuscar.onclick = function(){
     const headers = {
-        Authorization: "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"
+        Authorization: ""
     };
     fetch("https://api.github.com/users/" + gitHubid.value, {headers})
     .then(response => {
